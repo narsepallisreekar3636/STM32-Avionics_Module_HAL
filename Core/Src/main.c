@@ -78,8 +78,8 @@ int main(void)
     SystemClock_Config();
 
     MX_GPIO_Init();
-    MX_USART1_UART_Init();   // 👈 PA10 RX
-    MX_USART2_UART_Init();   // 👈 USB debug
+    MX_USART1_UART_Init();  
+    MX_USART2_UART_Init(); 
     MX_I2C1_Init();
 
     HAL_UART_Transmit(&huart2,
@@ -333,3 +333,4 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
