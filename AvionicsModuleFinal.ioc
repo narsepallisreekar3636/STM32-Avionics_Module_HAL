@@ -1,4 +1,4 @@
-#MicroXplorer Configuration settings - do not modify
+#MicroXplorer 
 CAD.formats=
 CAD.pinconfig=
 CAD.provider=
@@ -200,3 +200,4 @@ VP_SYS_VS_Systick.Signal=SYS_VS_Systick
 board=NUCLEO-F446RE
 boardIOC=true
 isbadioc=false
+
